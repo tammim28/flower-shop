@@ -6,7 +6,8 @@
     font-family: "Lato", sans-serif;
 }
 
-header {
+header,
+#hot-deal {
     background: rgba(229, 84, 115, 0.1);
 }
 
@@ -53,6 +54,7 @@ button {
     border: none;
     padding: 15px 28px;
     cursor: pointer;
+    /* margin-right: 74px; */
 }
 
 button:hover {
@@ -150,4 +152,38 @@ button:hover {
     font-size: 24px;
     line-height: 35px;
     text-align: center;
+}
+
+.hot-deal-main {
+    display: flex;
+    /* margin-top: 150px; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+#hot-deal .hot-deal-text {
+    width: 75%;
+    max-width: 550px;
+    text-align: center;
+}
+#hot-deal .hot-deal-text *{
+    margin-bottom: 24px;
+}
+
+#hot-deal .hot-deal-text h2 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(39, 39, 39);
+    margin-bottom: 24px;
+    margin-left: 30px;
+}
+#hot-deal .hot-deal-text h2 .important{
+    color: rgb(229, 84, 115);
+}
+#hot-deal .hot-deal-img{
+    max-width: 318px;
 }
