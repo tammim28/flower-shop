@@ -30,7 +30,8 @@ header {
     line-height: normal;
     font-style: normal;
 }
-.banner .banner-text *{
+
+.banner .banner-text * {
     margin-bottom: 32px;
 }
 
@@ -53,11 +54,100 @@ button {
     padding: 15px 28px;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background: #585252;
 }
-.banner .banner-img img{
+
+.banner .banner-img img {
     width: 100%;
     vertical-align: middle;
     margin-top: 24px;
+}
+
+/* header section finished */
+
+/* start main section */
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 15px;
+}
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+}
+
+.section-content .flower .flower-img {
+    background-color: rgb(221, 147, 147);
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 15px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.section-content .flower .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower .blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower .green {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower p {
+    color: rgb(39, 39, 39);
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 40px;
+    max-width: 1440px;
+    width: 1211px;
+    margin-left: 85px;
+}
+
+.icon-container .icon {
+    margin-right: 90px;
+}
+
+.icon .icon-text {
+    margin-top: 10px;
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
 }
