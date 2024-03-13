@@ -43,7 +43,7 @@ p {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0%;
-    text-align: left;
+    /* text-align: left; */
 }
 
 button {
@@ -167,7 +167,8 @@ button:hover {
     max-width: 550px;
     text-align: center;
 }
-#hot-deal .hot-deal-text *{
+
+#hot-deal .hot-deal-text * {
     margin-bottom: 24px;
 }
 
@@ -176,14 +177,100 @@ button:hover {
     font-weight: 800;
     line-height: 48px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
     color: rgb(39, 39, 39);
     margin-bottom: 24px;
     margin-left: 30px;
 }
-#hot-deal .hot-deal-text h2 .important{
+
+#hot-deal .hot-deal-text h2 .important {
     color: rgb(229, 84, 115);
 }
-#hot-deal .hot-deal-img{
+
+#hot-deal .hot-deal-img {
     max-width: 318px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 1440px;
+
+
+}
+
+.row .first {
+    width: 342px;
+    height: 396px;
+}
+
+.container-row {
+    max-width: 1440px;
+    width: 75%;
+}
+
+#row {
+    max-width: 1440px;
+    width: 75%;
+}
+
+#newsletter {
+    margin: 128px 0;
+}
+
+.newsletter-main {
+    background-image: url(../images/Rectangle\ 9.png);
+    padding: 122px 0;
+}
+
+#newsletter form {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+#newsletter form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+}
+
+.footer-text {
+    text-align: center;
+    background: rgb(17, 16, 16);
+}
+
+.footer-text h1 {
+    padding-top: 100px;
+}
+
+.footer-heading {
+    color: #E55473;
+
+}
+
+.footer-text h1 {
+    color: #fff;
+}
+
+.footer-text .first-text {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.footer-text .last-text {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 32px;
+    padding-bottom: 100px;
 }
